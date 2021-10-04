@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <motion.form 
       initial={{x:'-100vw'}}
-      animate={{x:0, transform:'translateX(-50vw) translateZ(0px)'}}
+      animate={{x:0, 
+        transitionEnd: {
+          transform:'translateX(-50vw) translateZ(0px)'
+        }}}
       >
         <h1>Create An Account</h1>
         <label>
