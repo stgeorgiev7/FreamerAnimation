@@ -9,7 +9,7 @@ function App() {
       initial={{x:'-100vw'}}
       animate={{x:0, 
         transitionEnd: {
-          transform:'translateX(-50vw) translateZ(0px)'
+          transform:'none'
         }}}
       >
         <h1>Create An Account</h1>
