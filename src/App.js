@@ -6,8 +6,9 @@ function App() {
   return (
     <div className="App">
       <motion.form 
+      style={{transfor:'translateX(53.2873vw)'}}
       initial={{transform:'translateX(53.2873vw)', x:'-100vw'}}
-      animate={{x:1, transform:'none'}}>
+      animate={{x:'none'}}>
         <h1>Create An Account</h1>
         <label>
           Email:
