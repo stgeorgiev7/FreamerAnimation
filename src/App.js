@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <motion.form 
-      initial={{x:'-100vw', transform:'none'}}
+      initial={{transform:'translateX(-50vw) translateZ(0px)'}}
       animate={{x:0}}
      
       >
