@@ -15,7 +15,6 @@ form {
   border-radius: 6px;
   box-shadow: 0px 8px 36px #222;
   background-color: #fefefe;
-  transform: translateX(0vw);
 }
 
 form > h1 {
